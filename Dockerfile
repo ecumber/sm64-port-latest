@@ -3,13 +3,13 @@ FROM ubuntu:18.04 as build
 RUN apt-get update && \
     apt-get install -y \
         binutils-mips-linux-gnu \
-        bsdmainutils \
         build-essential \
         libaudiofile-dev \
         libsdl2-dev \
         libusb-1.0 \
         libx11-dev \
         libcapstone-dev \
+        git \
         pkgconf \
         python3
 

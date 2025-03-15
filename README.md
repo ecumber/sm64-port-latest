@@ -1,6 +1,6 @@
 # Super Mario 64 Port
 
-- This repo contains a full decompilation of Super Mario 64 (J), (U), (E), and (SH).
+- This repo contains a full decompilation of Super Mario 64 of the following releases: Japan (jp), North America (us), Europe (eu), Shindou (sh) and iQue Player (cn).
 - Naming and documentation of the source code and data structures are in progress.
 - Beyond Nintendo 64, it can also target Linux and Windows natively.
 
@@ -48,7 +48,7 @@ The code can be debugged using `gdb`. On Linux install the `gdb` package and exe
 It is possible to build N64 ROMs as well with this repository. See https://github.com/n64decomp/sm64 for instructions.
 
 ## Project Structure
-	
+
 	sm64
 	├── actors: object behaviors, geo layout, and display lists
 	├── asm: handwritten assembly code, rom header
