@@ -188,15 +188,15 @@ s32 osEepromLongWrite(UNUSED OSMesgQueue *mq, u8 address, u8 *buffer, int nbytes
 
 s32 gNumVblanks;
 
-s32 osMotorInit(UNUSED OSMesgQueue *mq, UNUSED void *pfs, UNUSED int channel) {
+s32 osMotorInit(UNUSED OSMesgQueue *mq, UNUSED OSPfs *pfs, UNUSED int channel) {
     return 0;
 }
 
-s32 osMotorStart(UNUSED void *pfs) {
+s32 osMotorStart(UNUSED OSPfs *pfs) {
     return 0;
 }
 
-s32 osMotorStop(UNUSED void *pfs) {
+s32 osMotorStop(UNUSED OSPfs *pfs) {
     return 0;
 }
 
